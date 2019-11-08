@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.tbTile {
+  width: 165px !important;
+  margin: 5px 0px 0px 5px !important;
+}
+
+td.taskboard-cell.ui-droppable {
+  padding: 0;
+}
+
+td.taskboard-cell.taskboard-parent {
+  padding: 0;
+}
+
+.taskboard-parent {
+  min-width: 170px !important;
+  width: 170px !important;
+}
+
+.tbTile .tbTileContent {
+  height: 100%;
+}
+
+.id-title-container .title .clickable-title {
+  font-size: 1.1em;
+}

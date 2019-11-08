@@ -1,0 +1,15 @@
+{
+  "name": "tight tickets",
+  "author": "Kakeru",
+  "description": "Azure DevOpsのカンバンのチケットをぎちぎちに詰めて表示する",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "web_accessible_resources": ["*"],
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://dev.azure.com/*"],
+      "css": ["style.css"],"js": ["jquery.min.js","script.js"]
+    }
+  ]
+}
