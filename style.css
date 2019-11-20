@@ -74,3 +74,23 @@ td.taskboard-cell.ui-droppable {
 .sprints-hub-taskboard-spacer {
   margin-right: -20px;
 }
+
+.region-header {
+  height: 32px !important;
+}
+
+.mectrl_profilepic.mectrl_glyph.glyph_account_circle.mectrl_hc_msa {
+  margin: 0 !important;
+}
+
+.project-navigation .navigation-icon {
+  width: 36px !important;
+}
+
+.region-navigation {
+  width: 36px !important;
+}
+
+.vss-HubTileRegion {
+  height: 34px !important;
+}
