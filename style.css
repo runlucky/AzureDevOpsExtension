@@ -48,3 +48,29 @@ td.taskboard-cell.ui-droppable {
  left: auto !important;
  right: 5px;
 }
+
+.vss-Hub .vss-HubPivotBar:not(.shadowStyle) {
+  padding-top: 0 !important;
+}
+
+.vss-PivotBar .vss-PivotBar--pivots.tall .vss-PivotBar--button {
+  height: 24px !important;
+}
+
+.vss-PivotBar .vss-PivotBar--bar.tall .vss-PivotBar--commandBar {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  height: 24px !important;
+}
+
+.ms-FocusZone.container_bcedf589 {
+  margin-top: -4px;
+}
+
+.vss-PivotBarItem.content-host.customPadding {
+  padding: 0 !important;
+}
+
+.sprints-hub-taskboard-spacer {
+  margin-right: -20px;
+}
