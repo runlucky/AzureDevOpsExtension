@@ -25,3 +25,26 @@ td.taskboard-cell.taskboard-parent {
 .id-title-container .title .clickable-title {
   font-size: 1.1em;
 }
+
+.board-tile-content .id-title-container, .tbTile .id-title-container {
+  padding: 0px 0px 0px 2px !important;
+  margin: 0 !important;
+}
+
+.tbTile .container {
+  margin: 0 !important;
+}
+
+.additional-field.lastAdditionalField {
+  margin-bottom: 0 !important;
+}
+
+td.taskboard-cell.ui-droppable {
+  padding: 0 !important;
+}
+
+.add-new-item.board-add-card {
+ z-index: 100;
+ left: auto !important;
+ right: 5px;
+}
