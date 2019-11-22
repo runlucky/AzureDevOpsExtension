@@ -94,3 +94,32 @@ td.taskboard-cell.ui-droppable {
 .vss-HubTileRegion {
   height: 34px !important;
 }
+
+.tags.field-container, .field-container.additional-field {
+  padding: 0 !important;
+}
+
+[field="System.State"] .field-label {
+  width: 0 !important;
+  margin: 0 !important;
+}
+
+[field="System.State"] .field-inner-element {
+  width: 50% !important;
+}
+
+[field="Microsoft.VSTS.Scheduling.StoryPoints"] {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+[field="Microsoft.VSTS.Scheduling.StoryPoints"] .field-label {
+  width: 0 !important;
+  margin: 0 !important;
+}
+
+[field="Microsoft.VSTS.Scheduling.StoryPoints"] .field-inner-element {
+  width: 32px !important;
+  font-weight: bold;
+}
